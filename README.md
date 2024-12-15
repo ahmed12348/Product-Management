@@ -9,33 +9,26 @@ API Integration: A RESTful API to manage products and user authentication.
 1. Clone the Repository:
 Open your terminal and run the following commands:
 
-bash
-Copy code
-git clone https://github.com/yourusername/Product-Management.git
+git clone https://github.com/ahmed12348/Product-Management.git
 cd Product-Management
+
 2. Install Dependencies:
 Run the following commands to install all required dependencies:
-
-bash
-Copy code
 composer install
 npm install
-3. Run Database Migrations and Seed the Database:
-Refresh the database and seed it with an initial user:
 
-bash
-Copy code
+4. Run Database Migrations and Seed the Database:
+Refresh the database and seed it with an initial user:
 php artisan migrate:refresh --seed
 This will create the necessary tables and generate an admin user with the following credentials:
 
 Username: admin@admin.com
 Password: 1234
+
 4. Create Symbolic Link for Storage:
 Run the following command to link the storage folder:
-
-bash
-Copy code
 php artisan storage:link
+
 🔑 API Endpoints
 Login API:
 http://localhost/ProductManagementFeature/api/login
