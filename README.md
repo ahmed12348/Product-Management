@@ -6,5 +6,7 @@ pass:1234
 link has been connected to [C:\wamp64\www\example-Import\storage\app/public].
 
 
-
+Apis Endpoint
+http://localhost/ProductManagementFeature/api/login
+http://localhost/ProductManagementFeature/api/products
 
